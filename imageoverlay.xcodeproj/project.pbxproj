@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2AFD3E127FCD52A00CA666F /* imageoverlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFD3E027FCD52A00CA666F /* imageoverlayApp.swift */; };
+		F2AFD3E127FCD52A00CA666F /* ImageOverlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFD3E027FCD52A00CA666F /* ImageOverlayApp.swift */; };
 		F2AFD3E327FCD52A00CA666F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFD3E227FCD52A00CA666F /* ContentView.swift */; };
 		F2AFD3E527FCD52C00CA666F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AFD3E427FCD52C00CA666F /* Assets.xcassets */; };
 		F2AFD3E827FCD52C00CA666F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AFD3E727FCD52C00CA666F /* Preview Assets.xcassets */; };
 		F2AFD3F327FCD52C00CA666F /* imageoverlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFD3F227FCD52C00CA666F /* imageoverlayTests.swift */; };
 		F2AFD3FD27FCD52C00CA666F /* imageoverlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFD3FC27FCD52C00CA666F /* imageoverlayUITests.swift */; };
 		F2AFD3FF27FCD52C00CA666F /* imageoverlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFD3FE27FCD52C00CA666F /* imageoverlayUITestsLaunchTests.swift */; };
+		F2AFD41027FCDC1000CA666F /* HostingWindowKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFD40F27FCDC1000CA666F /* HostingWindowKey.swift */; };
+		F2AFD41427FCE32300CA666F /* KeyAwareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFD41327FCE32300CA666F /* KeyAwareView.swift */; };
+		F2AFD41627FCEA4B00CA666F /* HostingWindowFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AFD41527FCEA4B00CA666F /* HostingWindowFinder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		F2AFD3DD27FCD52A00CA666F /* imageoverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageoverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2AFD3E027FCD52A00CA666F /* imageoverlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageoverlayApp.swift; sourceTree = "<group>"; };
+		F2AFD3E027FCD52A00CA666F /* ImageOverlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOverlayApp.swift; sourceTree = "<group>"; };
 		F2AFD3E227FCD52A00CA666F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2AFD3E427FCD52C00CA666F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2AFD3E727FCD52C00CA666F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +48,9 @@
 		F2AFD3F827FCD52C00CA666F /* imageoverlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageoverlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AFD3FC27FCD52C00CA666F /* imageoverlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageoverlayUITests.swift; sourceTree = "<group>"; };
 		F2AFD3FE27FCD52C00CA666F /* imageoverlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageoverlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2AFD40F27FCDC1000CA666F /* HostingWindowKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingWindowKey.swift; sourceTree = "<group>"; };
+		F2AFD41327FCE32300CA666F /* KeyAwareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyAwareView.swift; sourceTree = "<group>"; };
+		F2AFD41527FCEA4B00CA666F /* HostingWindowFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingWindowFinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +101,14 @@
 		F2AFD3DF27FCD52A00CA666F /* imageoverlay */ = {
 			isa = PBXGroup;
 			children = (
-				F2AFD3E027FCD52A00CA666F /* imageoverlayApp.swift */,
+				F2AFD3E027FCD52A00CA666F /* ImageOverlayApp.swift */,
 				F2AFD3E227FCD52A00CA666F /* ContentView.swift */,
 				F2AFD3E427FCD52C00CA666F /* Assets.xcassets */,
 				F2AFD3E927FCD52C00CA666F /* imageoverlay.entitlements */,
 				F2AFD3E627FCD52C00CA666F /* Preview Content */,
+				F2AFD40F27FCDC1000CA666F /* HostingWindowKey.swift */,
+				F2AFD41327FCE32300CA666F /* KeyAwareView.swift */,
+				F2AFD41527FCEA4B00CA666F /* HostingWindowFinder.swift */,
 			);
 			path = imageoverlay;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AFD3E327FCD52A00CA666F /* ContentView.swift in Sources */,
-				F2AFD3E127FCD52A00CA666F /* imageoverlayApp.swift in Sources */,
+				F2AFD3E127FCD52A00CA666F /* ImageOverlayApp.swift in Sources */,
+				F2AFD41027FCDC1000CA666F /* HostingWindowKey.swift in Sources */,
+				F2AFD41427FCE32300CA666F /* KeyAwareView.swift in Sources */,
+				F2AFD41627FCEA4B00CA666F /* HostingWindowFinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +442,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ratbum.imageoverlay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tlee.imageoverlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -457,7 +469,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ratbum.imageoverlay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tlee.imageoverlay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

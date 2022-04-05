@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct imageoverlayApp: App {
+struct ImageOverlayApp: App {    
     var body: some Scene {
         WindowGroup {
             ContentView()
